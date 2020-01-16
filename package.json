@@ -3,7 +3,12 @@
   "version": "0.1.0",
   "description": "https://developer.okta.com/blog/2019/06/04/what-the-heck-is-sign-in-with-apple",
   "main": "index.js",
-  "scripts": {},
+  "bin": {
+    "generate": "./index.js"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
   "author": "",
   "license": "ISC",
   "dependencies": {
