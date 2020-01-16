@@ -4,7 +4,7 @@
   "description": "https://developer.okta.com/blog/2019/06/04/what-the-heck-is-sign-in-with-apple",
   "main": "index.js",
   "bin": {
-    "generate": "./index.js"
+    "generate-apple-client-secret": "./index.js"
   },
   "scripts": {
     "start": "node index.js"
