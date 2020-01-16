@@ -1,2 +1,2 @@
 ## Run
-> `npm start`
+> `npx github:supernovel/generate-apple-oauth-client-secret`
