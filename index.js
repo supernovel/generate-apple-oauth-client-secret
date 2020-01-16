@@ -10,7 +10,7 @@ inquirer
         {
             name: 'keypath',
             type: 'input',
-            default: './key.txt'
+            default: '/home/ubuntu/key.p8'
         },
         {
             name: 'teamid',
@@ -26,8 +26,6 @@ inquirer
         },
     ])
     .then(async (answers) => {
-        console.log('test');
-
         const keyFile = await fs.readFile(path.resolve(answers.keypath));
         const now = Math.floor(Date.now() / 1000);
     
